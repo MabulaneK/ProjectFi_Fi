@@ -2,8 +2,8 @@ const btnsubmit = document.querySelector("#submit");
 
 btnsubmit.addEventListener('click',function(e){
     e.preventDefault();
-    location.href="/Auth/deshboard.html";
-    document.addEventListener(".log-containter").style.background ="blue";
+    location.href="Auth/deshboard.html";
+   // document.addEventListener(".log-containter").style.background ="blue";
 });
 
 
